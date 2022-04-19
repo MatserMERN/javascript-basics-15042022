@@ -242,12 +242,10 @@ if function is inside an object then 'this' becomes that object
 
 Closure 
 ----------
-Inner functions having access to the variables of outer functions
+Inner functions having access to the variables and parameters of outer functions
 
 Bind vs call vs apply
 -----------------------
-
-** if you pass primitive values through bind it will covert them to object type
 
 bind - sets `this` keyword and creates a copy of that function
 
@@ -260,6 +258,8 @@ apply - sets `this` keyword, similar to call but the difference is apply accepts
 
 The call, bind and apply methods can be used to set `this` keyword 
 independent of how function is called
+
+** if you pass primitive values through bind it will convert them to object type
 
 Class 
 -----
