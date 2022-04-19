@@ -118,7 +118,7 @@ Strict Typing
 -------------
 C# or java follows script typing
 
-Prmitive Types
+Primitive Types
 -----------------
 A type of data that represents a  single value is called primitive data type
 
@@ -193,8 +193,8 @@ XML
 
 JSON
 ------
-common usage of JSON is to exchange data to/from web servers
-When sending data to a webserver that data has to be string 
+1. common usage of JSON is to exchange data to/from web servers
+2. When sending data to a webserver that data has to be string 
 
 {   
     "firstname": "uma",
@@ -215,7 +215,7 @@ Anything which is JSON valid is valid in object literal
 
 JSON.stringify - converts a javascript value into seriazlied string 
 
-JSOn.parser - deserialzes a JSON String to a JSON Object
+JSON.parser - deserialzes a JSON String to a JSON Object
 
 arrays
 -------
