@@ -380,7 +380,8 @@ Deals with code encapsulation. It is used to create private public properties
 
 code encapsulation
 -------------------
-
-var person = function(){
-    var name =  'uma'
+function Human(){
+    var person = function(){
+        var name =  'uma'
+    }
 }
